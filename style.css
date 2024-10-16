@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 a{
-    color: #F9FAF8;
+    color: #E5E7EB;
     text-decoration: none;
 }
 #header_logo {
@@ -36,6 +36,9 @@ a{
     background-color: #3882f6;
     border:  #3882f6;
     cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
 }
 .section-1 h1 {
     font-size: 48px;
@@ -73,8 +76,17 @@ figcaption {
     color: gray;
     text-align: center;
 }
+.title_image {
+    height: 300px;
+    width: 600px;
+    border: 3px solid #E5E7EB;
+}
 .info img {
-    height: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border-color: #3882f6;
+    border: 3px solid #3882f6;
 }
 .quote {
     background-color: #E5E7EB;
@@ -100,12 +112,17 @@ blockquote cite {
     background-color: #3882f6;
     color: #F9FAF8;
     margin: 70px;
-    display: flex;
-    justify-content: center;
     padding: 50px;
     gap: 150px;
     font-size: 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .footer {
     background-color: #1f2937;
@@ -126,4 +143,5 @@ blockquote cite {
     width: 180px;
     font-size: 16px;
     border-radius: 10px;
+    margin: 50px;
 }
