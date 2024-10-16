@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+#header_logo {
+    font-size: 24px;
+}
+.header-links {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+.content-title-image {
+    display: flex;
+    padding: 30px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    gap: 10px;
+    margin: 0px;
+}
+.section-1 button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border:  #3882f6;
+    cursor: pointer;
+}
+.section-1 h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-1 p {
+    font-size: 18px;
+}
+.random_info {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random_info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    width: 180px;
+}
+figcaption {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+.info img {
+    height: auto;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 0;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+blockquote cite {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.box {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.box button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 3px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    border-radius: 10px;
+}
